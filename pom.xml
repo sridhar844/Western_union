@@ -113,7 +113,7 @@
 				<version>${maven.surefire.version}</version>
 				<configuration>
 					<includes>
-						<include>**/ParallelRun.java</include>
+						<exclude>**/*TestRunner.java</exclude>
 					</includes>
 					<parallel>methods</parallel>
 					<threadCount>4</threadCount>
