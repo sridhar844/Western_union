@@ -1,0 +1,6 @@
+stepdefinitions\LoginSteps.class
+testrunners\MyTestRunner.class
+stepdefinitions\VerificationSteps.class
+stepdefinitions\HomeSteps.class
+AppHooks\ApplicationHooks.class
+stepdefinitions\RequestMeetingSteps.class
