@@ -20,14 +20,21 @@
 		<maven.compiler.version>3.8.1</maven.compiler.version>
 		<maven.surefire.version>2.22.2</maven.surefire.version>
   </properties>
-<repositories>
+  <repositories>
              <repository>
                  <id>jitpack.io</id>
                  <url>https://jitpack.io</url>
              </repository>
     </repositories>
+
   <dependencies>
-   
+                <!-- https://mvnrepository.com/artifact/com.github.ralfstuckert.pdfbox-layout/pdfbox2-layout -->
+              <dependency>
+                <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
+                     <artifactId>pdfbox2-layout</artifactId>
+                    <version>0.8.6</version>
+               </dependency>
+	  
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
@@ -62,7 +69,7 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber6-adapter -->
-                <dependency>
+<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber6-adapter</artifactId>
 			<version>2.6.0</version>
@@ -96,15 +103,6 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.2</version>
 		</dependency>
-	  
-	       <!-- https://mvnrepository.com/artifact/com.github.ralfstuckert.pdfbox-layout/pdfbox2-layout -->
-                <dependency>
-                    <groupId>com.github.ralfstuckert.pdfbox-layout</groupId>
-                   <artifactId>pdfbox2-layout</artifactId>
-                   <version>0.8.6</version>
-              </dependency>
-
-
 		
 	
   </dependencies>
